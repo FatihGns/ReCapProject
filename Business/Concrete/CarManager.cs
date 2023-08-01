@@ -48,7 +48,7 @@ namespace Business.Concrete
         public List<Car> GetCarsByColorId(int colorId)
         {
             return _carDal.GetAll(c => c.ColorId == colorId);
-        }
+        }   
 
         public void Update(Car car)
         {
